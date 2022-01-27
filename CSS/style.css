@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: purple;
+    height: 70px;
+}
+.container{
+    height: auto;
+    position: relative;
+    background-color: red;
+}
+.container img {
+    width: 100%;
+    display: block;
+}
+.texts
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 93px;
+    transform: translate(-90%,-50%);
+}
